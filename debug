@@ -1,2 +1,2 @@
 dotnet msbuild pi-ConsoleApp.sln -t:build -restore -p:RestorePackagesConfig=true
-dotnet bin/debug/net8.0/pi-ConsoleApp.dll
+dotnet ./bin/debug/net8.0/pi-ConsoleApp.dll
